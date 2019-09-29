@@ -41,7 +41,7 @@ export default {
 
   // Disqus
   disqus: {
-    on: true,
+    on: false,
     loadingStrategy: 'button', // Options: onload, lazy, button
     siteShortName: 'blog-danielkelly-io' // 'blog-danielkelly-io'
   },
@@ -81,7 +81,7 @@ export default {
     date: {
       display: true
     },
-    perRow: 2,
+    perRow: 3,
     perPage: 6
   }
 }
