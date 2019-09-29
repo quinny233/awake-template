@@ -133,7 +133,8 @@ export default {
   .hero-body {
     position: relative;
     z-index: 2;
-    padding: 12rem;
+    padding-top: 12rem !important;
+    padding-bottom: 12rem !important;
   }
 }
 .hero-theme-dark {
