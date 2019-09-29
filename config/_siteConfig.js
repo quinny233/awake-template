@@ -13,7 +13,7 @@ export default {
   tagline: 'Head of Digital @ Strawberry. Northern.',
   tagline_two: 'Into Football from Middlesbrough, Music from Manchester, Food from Japan.',
   featureImage: '/uploads/home-hero.jpg',
-  logo: 'logo.svg', // 'logo-component', // or '/logo.svg' for regular image
+  logo: 'logo.png', // 'logo-component', // or '/logo.svg' for regular image
   googleAnalytics: {
     on: true,
     id: process.env.GOOGLE_ANALYTICS_ID
