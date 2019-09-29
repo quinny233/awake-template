@@ -9,8 +9,8 @@ import theCMS from '../cms/netlify/cms'
  * General Site configurations
  */
 export default {
-  siteName: 'quinny.dev',
-  tagline: 'some text here',
+  siteName: 'Liam Quinn',
+  tagline: 'Head of Digital @ Strawberry. Northern. <br>Into Football from Middlesbrough, Music from Manchester, Food from Japan.',
   featureImage: '/uploads/home-hero.jpg',
   logo: 'logo.svg', // 'logo-component', // or '/logo.svg' for regular image
   googleAnalytics: {
