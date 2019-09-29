@@ -81,7 +81,7 @@ export default {
     date: {
       display: true
     },
-    perRow: 3,
+    perRow: 2,
     perPage: 6
   }
 }
