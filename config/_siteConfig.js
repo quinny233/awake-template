@@ -12,7 +12,7 @@ export default {
   siteName: 'Quinny.dev',
   tagline: 'A Nuxt.js Theme for Netlify CMS',
   featureImage: '/uploads/home-hero.jpg',
-  logo: 'logo-component', // 'logo-component', // or '/logo.svg' for regular image
+  logo: 'logo.svg', // 'logo-component', // or '/logo.svg' for regular image
   googleAnalytics: {
     on: true,
     id: process.env.GOOGLE_ANALYTICS_ID
@@ -27,12 +27,12 @@ export default {
       link: '/contact'
     },
     {
-      name: 'Categories',
+      name: 'Blog',
       link: '/categories'
     }
   ],
   hero: {
-    theme: 'mist' // options: mist, light, dark
+    theme: 'light' // options: mist, light, dark
   },
 
   // Main Layout/Style
