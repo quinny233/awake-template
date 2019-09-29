@@ -20,14 +20,6 @@ export default {
   },
   mainMenu: [
     {
-      name: 'About',
-      link: '/about'
-    },
-    {
-      name: 'Contact',
-      link: '/contact'
-    },
-    {
       name: 'Blog',
       link: '/categories'
     }
