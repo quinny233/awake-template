@@ -10,7 +10,8 @@ import theCMS from '../cms/netlify/cms'
  */
 export default {
   siteName: 'Liam Quinn',
-  tagline: 'Head of Digital @ Strawberry. Northern. <br>Into Football from Middlesbrough, Music from Manchester, Food from Japan.',
+  tagline: 'Head of Digital @ Strawberry. Northern.',
+  tagline_two: 'Into Football from Middlesbrough, Music from Manchester, Food from Japan.',
   featureImage: '/uploads/home-hero.jpg',
   logo: 'logo.svg', // 'logo-component', // or '/logo.svg' for regular image
   googleAnalytics: {
