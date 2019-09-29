@@ -19,7 +19,7 @@ export default {
   },
   mainMenu: [
     {
-      name: 'Blog',
+      name: 'Writing',
       link: '/categories'
     }
   ],
