@@ -2,24 +2,20 @@
   <div id="home-page" class="page-wrapper home-page">
     <site-hero :title="title" :subtitle="subtitle" :image="featureImage">
     </site-hero>
-    <main-section theme="one-column">
-      <template v-slot:default>
-        <div class="content">
-          <h2>About</h2>
-          <p>
-            <strong>
-              Edit this page.
-            </strong>
-          </p>
-          <p>
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci
-            eligendi impedit inventore ipsa laboriosam libero magnam modi odio,
-            sunt temporibus. Distinctio doloremque eum magni nostrum quasi
-            ratione rem repudiandae sit!
-          </p>
-         </div>
-      </template>
-    </main-section>
+    <div class="content">
+        <h2>About</h2>
+        <p>
+          <strong>
+            Edit this page.
+          </strong>
+        </p>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci
+          eligendi impedit inventore ipsa laboriosam libero magnam modi odio,
+          sunt temporibus. Distinctio doloremque eum magni nostrum quasi
+          ratione rem repudiandae sit!
+        </p>
+    </div>
     <main-section theme="one-column">
       <template v-slot:default>
         <div class="content">
