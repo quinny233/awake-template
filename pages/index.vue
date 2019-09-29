@@ -2,41 +2,25 @@
   <div id="home-page" class="page-wrapper home-page">
     <site-hero :title="title" :subtitle="subtitle" :image="featureImage">
     </site-hero>
-    <div class="container">
-      <div class="columns">
-        <div class="column is-offset-2 is-8" >
-          <h2>About</h2>
-          <p>
-            <strong>
-              Edit this page.
-            </strong>
-          </p>
-          <p>
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci
-            eligendi impedit inventore ipsa laboriosam libero magnam modi odio,
-            sunt temporibus. Distinctio doloremque eum magni nostrum quasi
-            ratione rem repudiandae sit!
-          </p>
+    <main-section theme="one-column">
+     <div class="container">
+        <div class="columns">
+          <div class="column is-offset-2 is-8" >
+            <h2>About</h2>
+            <p>
+              <strong>
+                Edit this page.
+              </strong>
+            </p>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci
+              eligendi impedit inventore ipsa laboriosam libero magnam modi odio,
+              sunt temporibus. Distinctio doloremque eum magni nostrum quasi
+              ratione rem repudiandae sit!
+            </p>
+          </div>
         </div>
       </div>
-    </div>
-    <main-section theme="one-column">
-      <template v-slot:default>
-        <div class="content">
-          <h2>About</h2>
-          <p>
-            <strong>
-              Edit this page.
-            </strong>
-          </p>
-          <p>
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci
-            eligendi impedit inventore ipsa laboriosam libero magnam modi odio,
-            sunt temporibus. Distinctio doloremque eum magni nostrum quasi
-            ratione rem repudiandae sit!
-          </p>
-         </div>
-      </template>
       <template v-slot:default>
         <!-- All Posts -->
         <posts-grid />
