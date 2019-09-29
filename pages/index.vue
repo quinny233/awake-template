@@ -6,18 +6,14 @@
       <template v-slot:default>
       
       <div class="content">
-          <h2>About</h2>
-          <p>
-            <strong>
-              Edit this page in<code>/pages/about.vue</code>to fit your needs.
-            </strong>
-          </p>
+          <h2>About Me</h2>
           <p>
             Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci
             eligendi impedit inventore ipsa laboriosam libero magnam modi odio,
             sunt temporibus. Distinctio doloremque eum magni nostrum quasi
             ratione rem repudiandae sit!
           </p>
+          <br>
         </div>
         
         <!-- All Posts -->
