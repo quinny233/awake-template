@@ -133,6 +133,7 @@ export default {
   .hero-body {
     position: relative;
     z-index: 2;
+    padding: 12rem;
   }
 }
 .hero-theme-dark {
