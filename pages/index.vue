@@ -5,7 +5,7 @@
     <main-section theme="one-column">
       <template v-slot:default>
       
-      <div class="column is-offset-2 is-8" 
+      <div class="column is-offset-2 is-8"> 
         <div class="content">
             <p>
               <span><strong>Liam Quinn</strong> studied & graduated Computer Science, and has subsequently spent the following 8 years working within Digital - particularly around retail.</span> <br><br>
