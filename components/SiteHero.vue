@@ -11,8 +11,7 @@
         <h1 class="title animated fadeInUp">
           {{ title }}
         </h1>
-        <h2 class="subtitle animated fadeInUp slower">
-          <span v-html="subtitle"></span>
+        <h2 class="subtitle animated fadeInUp slower" v-html="subtitle">
         </h2>
         <br />
         <div
