@@ -12,7 +12,7 @@
           {{ title }}
         </h1>
         <h2 class="subtitle animated fadeInUp slower">
-          {{ subtitle }} <br> {{ subtitle_two }}
+          <span v-html="subtitle"></span>
         </h2>
         <br />
         <div
@@ -31,7 +31,6 @@ export default {
   props: {
     title: { type: String, default: '' },
     subtitle: { type: String, default: '' },
-    subtitle_two: { type: String, default: '' },
     image: { type: String, default: '' },
     color: { type: String, default: '#469af0' },
     theme: { type: String, default: '' }
