@@ -12,7 +12,7 @@
           {{ title }}
         </h1>
         <h2 class="subtitle animated fadeInUp slower">
-          {{ subtitle }}
+          {{ subtitle }} <br> {{ subtitle_two }}
         </h2>
         <br />
         <div
