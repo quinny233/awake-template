@@ -51,6 +51,9 @@ export default {
 </script>
 
 <style>
+span{
+  font-size:21px;
+}
 .home-page .under-subtitle {
   border-top: none;
 }
