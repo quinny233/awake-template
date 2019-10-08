@@ -51,7 +51,7 @@ export default {
 </script>
 
 <style>
-span{
+.content span{
   font-size:21px;
 }
 .home-page .under-subtitle {
