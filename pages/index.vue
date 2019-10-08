@@ -8,7 +8,9 @@
       <div class="content">
           <h2>About Me</h2>
           <p>
-            After studying & Graduating Computer Science, I've spent the following 8 years working within Digital - primarily in retail. Working with several eCommerce platforms throughout that time, I now focus solely on Shopify. My experience to date has involved creating Mobile Apps for retail, overseeing complex eCom Solutions for International Brands, consulting on Replatforming or Integrating into an existing platform.        
+            After studying & Graduating Computer Science, I've spent the following 8 years working within Digital - primarily in retail. <br>
+            Working with several eCommerce platforms throughout that time, I now focus solely on Shopify. <br>
+            My experience to date has involved creating Mobile Apps for retail, planning complex eCommerce Solutions for International Brands, consulting on Replatforming or Integrating into an existing platform.        
           </p>
           <br>
         </div>
