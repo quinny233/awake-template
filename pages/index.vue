@@ -8,7 +8,7 @@
       <div class="column is-offset-2 is-8" 
         <div class="content">
             <p>
-              <strong>Liam Quinn</strong><span> studied & graduated Computer Science, and has subsequently spent the following 8 years working within Digital - particularly around retail.</span> <br><br>
+              <span><strong>Liam Quinn</strong> studied & graduated Computer Science, and has subsequently spent the following 8 years working within Digital - particularly around retail.</span> <br><br>
               My experience to date has involved creating mobile apps for retail, planning and development of complex eCommerce solutions for international brands, consulting on replatforming or integrating into an existing system. Having previous experience working with several different eCommerce platforms, I now focus solely on Shopify.        
             </p>
             <br>
