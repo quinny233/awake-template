@@ -8,10 +8,7 @@
       <div class="content">
           <h2>About Me</h2>
           <p>
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci
-            eligendi impedit inventore ipsa laboriosam libero magnam modi odio,
-            sunt temporibus. Distinctio doloremque eum magni nostrum quasi
-            ratione rem repudiandae sit!
+            After studying & Graduating Computer Science, I've spent the following 8 years working within Digital - primarily in retail. Working with several eCommerce platforms throughout that time, I now focus solely on Shopify. My experience to date has involved creating Mobile Apps for retail, overseeing complex eCom Solutions for International Brands, consulting on Replatforming or Integrating into an existing platform.        
           </p>
           <br>
         </div>
