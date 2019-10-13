@@ -13,13 +13,11 @@ export const modules = [
   // Doc: https://axios.nuxtjs.org/usage
   '@nuxtjs/axios',
   '@nuxtjs/eslint-module',
+  '@nuxtjs/google-analytics',
   '@nuxtjs/style-resources',
   'nuxt-fontawesome',
   'nuxt-responsive-loader'
 ]
-if (siteConfig.googleAnalytics.on && siteConfig.googleAnalytics.id) {
-  modules.push('@nuxtjs/google-analytics')
-}
 
 export const modulesSettings = {
   fontawesome: {
