@@ -1,5 +1,5 @@
 ---
-title: 'Shopify Theme Inspector - '
+title: Shopify Theme Inspector
 subtitle: New release from Shopify
 category:
   - Shopify Plus
