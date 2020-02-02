@@ -12,11 +12,11 @@ featureImage: uploads/markup-hero.jpg
 
 intro text here...
 
-
-
 ## The Deepdive
 
 body text here...
+
+```Code Block here```
 
 
 
