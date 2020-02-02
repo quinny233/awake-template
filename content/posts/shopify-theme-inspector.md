@@ -5,7 +5,7 @@ category:
   - Shopify Plus
   - Technical Performance
 author: Liam Quinn
-date: 2020-02-01T18:22:42.377Z
+date: 2020-03-01T18:22:42.377Z
 featureImage: uploads/getting-started-hero.jpg
 ---
 ## The Nutshell
