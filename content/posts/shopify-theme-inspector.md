@@ -17,10 +17,7 @@ intro text here...
 body text here...
 
 ```
-googleAnalytics: {
-    on: true,
-    id: process.env.GOOGLE_ANALYTICS_ID
-},
+Code Snippet Here
 ```
 
 
