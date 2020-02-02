@@ -4,7 +4,7 @@ subtitle: New release from Shopify
 category:
   - Shopify Plus
 author: Liam Quinn
-date: 2020-02-09T18:40:50.168Z
+date: 2020-03-09T18:40:50.168Z
 featureImage: uploads/getting-started-hero.jpg
 ---
 ## The Nutshell
