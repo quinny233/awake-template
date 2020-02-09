@@ -6,7 +6,7 @@ category:
   - Technical Performance
 author: Liam Quinn
 date: 2020-03-01T18:22:42.377Z
-featureImage: uploads/about-hero.jpg
+featureImage: uploads/Screen Shot 2020-02-03 at 17.00.26.png
 ---
 ## The Nutshell
 
