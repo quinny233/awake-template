@@ -6,7 +6,7 @@ category:
   - Technical Performance
 author: Liam Quinn
 date: 2020-03-01T18:22:42.377Z
-featureImage: uploads/Screen Shot 2020-02-03 at 17.00.26.png
+featureImage: uploads/Screen Shot 2020-01-31 at 16.15.53.png
 ---
 ## The Nutshell
 
