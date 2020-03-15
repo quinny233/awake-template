@@ -1,6 +1,8 @@
 ---
 title: Shopify Theme Inspector
-subtitle: New release from Shopify
+subtitle: >-
+  The new Chrome Extension tool released by Shopify, to help improve
+  performance.
 category:
   - Shopify Plus
   - Technical Performance
@@ -10,17 +12,17 @@ featureImage: /uploads/about-hero.jpg
 ---
 ## The Nutshell
 
-intro text here...
+\- The new tool released from Shopify. Chrome Extension. Purpose is another tool in the quest for better performance across Shopify stores, and pinpoint inefficient parts of the Liquid code.
+
+
 
 ## The Deepdive
 
-body text here...
+How it works here:
 
 ```
 Code Snippet Here
 ```
-
-
 
 ## The End Result
 
