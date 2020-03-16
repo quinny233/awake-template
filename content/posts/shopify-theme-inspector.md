@@ -20,10 +20,17 @@ But in a bid to help us help ourselves, Shopify have released a new tool - for i
 
 ## The Deepdive
 
-How it works here:
+Install Chrome extension called this, link here...\
+Open Developer tools, go to new Shopify Tab, refresh page.
+
+See the 'Flame Graph' like this...
+
+
+
+Now based on that graph we can start to analyse which blocks of code are the most inefficient on the page. Do this
 
 ```
-Code Snippet Here
+Code Snippet 1 Here
 ```
 
 ## The End Result
