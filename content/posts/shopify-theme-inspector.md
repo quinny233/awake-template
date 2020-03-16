@@ -12,7 +12,9 @@ featureImage: /uploads/about-hero.jpg
 ---
 ## The Nutshell
 
-\- The new tool released from Shopify. Chrome Extension. Purpose is another tool in the quest for better performance across Shopify stores, and pinpoint inefficient parts of the Liquid code.
+Shopify, like pretty much every other hosted platform, has always had question marks around exactly how good a performance it is actually possible to achieve for a new site. Thankfully Shopify seem to have identified this issue as a key area for improvement - and are doing so on an ongoing basis from a server side. 
+
+But in a bid to help us help ourselves, Shopify have released a new tool - for inspecting the efficiency of the Liquid code within the frontend template files. This means it is now easier to analyse the quality of how the frontend has been built, rather than just whether it looks good.
 
 
 
