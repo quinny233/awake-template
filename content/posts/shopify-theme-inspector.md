@@ -1,5 +1,5 @@
 ---
-title: Shopify Liquid Inspector
+title: An Insight into Shopify Liquid Inspector
 subtitle: >-
   The new Chrome Extension tool released by Shopify, to help improve
   performance.
