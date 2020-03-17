@@ -22,22 +22,17 @@ To begin using this tool and exploring which aspects of the Liquid code could be
 
 *Prereqs. You must be using Chrome as your web browser, and have access to the Store Owner account of the Shopify Store you are looking to inspect.*
 
-
 1. Start by installing the Chrome Extension called "Shopify Theme Inspector for Chrome" - here's a link <https://chrome.google.com/webstore/detail/shopify-theme-inspector-f/fndnankcflemoafdeboboehphmiijkgp>
-
 2. Navigate to your Shopify Store within the Chrome browser. 
-
 3. Click the new Shopify icon which should sit within your extensions, in the top right corner of the browser window. You'll be prompted to login to the Store in order to use this.
-
 4. Open up Chrome Developer Tools (Right-click -> Inspect), and switch to the Shopify Tab which should now have been added. 
-
 5. Refresh the page, or click through to a page that you think may have performance issues.
 
 You should now see a beautiful 'Flame Graph' just like this...
 
-SCREENSHOT
 
 
+![Shopify Liquid Inspector flame graph](/uploads/screenshot-2020-03-17-at-11.53.35.png "Shopify Liquid Inspector flame graph")
 
 
 
