@@ -20,9 +20,9 @@ But in a bid to help us help ourselves, Shopify have released a new tool - for i
 
 To begin using this tool and exploring which aspects of the Liquid code could be improved, there are a few initial steps to setup:
 
-*prereqs. You must be using Chrome as your web browser, and have access to the Store Owner account of the Shopify Store you are looking to inspect.*
+*Prereqs. You must be using Chrome as your web browser, and have access to the Store Owner account of the Shopify Store you are looking to inspect.*
 
-\
+
 1. Start by installing the Chrome Extension called "Shopify Theme Inspector for Chrome" - here's a link <https://chrome.google.com/webstore/detail/shopify-theme-inspector-f/fndnankcflemoafdeboboehphmiijkgp>
 
 2. Navigate to your Shopify Store within the Chrome browser. 
