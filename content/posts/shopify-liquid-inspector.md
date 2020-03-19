@@ -40,7 +40,13 @@ So to try and demonstrate a use case for this, I've added a new snipped of Liqui
 
 We can see from the above, that this new snippet accounts for ~5-10% of the graph now. Within this snippet, I've decided I wanted to output a flag for each product that is Tagged as 'featured'. So it's a basic loop through all products, checking each for a matching Tag, as follows:
 
-CODE HERE
+```
+{% for product in collection.products %}
+  {% if product.tags contains 'featured' %}
+    {{ product.title }}
+  {% endif %}
+{% endfor %}
+```
 
 I can now dig a bit further to see how efficient this code is, clicking into the relevant section of the graph. As it expands out, we can see exactly how many nodes are within the loop (signifying the amount of products we're looping through - 10 in this case), and how many nodes are pulled out to the next level down (signifying the amount of matches - 3 in this case).
 
@@ -52,7 +58,17 @@ To highlight this a little more, I went into my Shopify Admin and removed the 'f
 
 Next, I accidentally got my loops wrong - and have ended up nesting them so that the page loops through all products, then for each it loops through all products again looking for that 'featured' tag. It looks like this:
 
-CODE HERE
+```
+{% for product in collection.products %}
+    {% if product.tags contains 'featured' %}
+      {% for product in collection.products %}
+          {% if product.tags contains 'featured' %}
+            {{ product.title }}
+          {% endif %}
+      {% endfor %}
+    {% endif %}
+{% endfor %}
+```
 
 So referring back to the Flame Graph now, we can see that the length of that element of the graph has now extended because it's taking up a bigger proportion of the page load. As expected, when we dig back into it - we can see the loop now happening ten times, with the two matching nodes being pulled out each time. 
 
