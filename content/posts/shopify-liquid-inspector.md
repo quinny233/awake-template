@@ -8,7 +8,7 @@ category:
   - Technical Performance
 author: Liam Quinn
 date: 2020-03-01T18:22:42.377Z
-featureImage: /uploads/about-hero.jpg
+featureImage: /uploads/flames-in-close-up-view-2726986.jpg
 ---
 ## The Nutshell
 
