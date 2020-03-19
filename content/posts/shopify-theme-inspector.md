@@ -36,7 +36,7 @@ As you can see from the image, this graph displays all the nodes of Liquid that 
 
 So to try and demonstrate a use case for this, I've added a new snipped of Liquid code into the template that was visualised in that initial image (above). So from this following image you can see the new snippet named "liquid-test" now getting loaded in, early in the page load.
 
-![Shopify flame graph including new test snippet](/uploads/screenshot-2020-03-19-at-14.24.40.png "Shopify flame graph including new test snippet")
+SCREENSHOT - NEW TEST SNIPPET
 
 
 We can see from the above, that this new snippet accounts for ~5-10% of the graph now. Within this snippet, I've decided I wanted to output a flag for each product that is Tagged as 'featured'. So it's a basic loop through all products, checking each for a matching Tag, as follows:
@@ -51,11 +51,11 @@ We can see from the above, that this new snippet accounts for ~5-10% of the grap
 
 I can now dig a bit further to see how efficient this code is, clicking into the relevant section of the graph. As it expands out, we can see exactly how many nodes are within the loop (signifying the amount of products we're looping through - 10 in this case), and how many nodes are pulled out to the next level down (signifying the amount of matches - 3 in this case).
 
-![Shopify flame graph - three results](/uploads/screenshot-2020-03-19-at-14.26.27.png "Shopify flame graph - three results")
+SCREENSHOT - THREE NODES
 
 To highlight this a little more, I went into my Shopify Admin and removed the 'featured' Tag from one of the Products. As expected, we're still looping through all 10 - but now there are only two nodes pulled out to the next level down:
 
-![Shopify flame graph - two results](/uploads/screenshot-2020-03-19-at-14.27.50.png "Shopify flame graph - two results")
+SCREENSHOT - TWO NODES
 
 
 
@@ -75,7 +75,7 @@ Next, I accidentally got my loops wrong - and have ended up nesting them so that
 
 So referring back to the Flame Graph now, we can see that the length of that element of the graph has now extended because it's taking up a bigger proportion of the page load. As expected, when we dig back into it - we can see the loop now happening ten times, with the two matching nodes being pulled out each time. 
 
-![Shopify flame graph - double loop](/uploads/screenshot-2020-03-19-at-14.28.57.png "Shopify flame graph - double loop")
+SCREENSHOT - DOUBLE LOOP
 
 And this is exactly the sort of inefficiency that this Shopify Liquid Inspector is perfect to debug. Without looking into the code line-by-line, something like this could easily go under the radar because it has no visual impact and still actually works. In terms of performance, it might not even be noticeable if you have a store with minimal products, and minimal Tags. But, the hit on performance would scale as the inventory increases. This poorly written code could be left lurking on the site, and only become noticeable when a new batch of 1000 products were added to the store - making the loops suddenly increase exponentially. 
 
