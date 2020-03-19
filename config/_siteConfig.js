@@ -10,7 +10,7 @@ import theCMS from '../cms/netlify/cms'
  */
 export default {
   siteName: 'Liam Quinn',
-  tagline: 'Head of Digital @ Strawberry. Northern.' + ' <br>' + 'Handsome Rover from Town to Town.',
+  tagline: 'Technical eCommerce Consultant @ Vervaunt. Northern.' + ' <br>' + 'Handsome Rover from Town to Town.',
   tagline_two: 'Handsome Rover from Town to Town.',
   featureImage: '/uploads/home-hero.jpg',
   logo: 'logo.png', // 'logo-component', // or '/logo.svg' for regular image
@@ -44,7 +44,7 @@ export default {
   disqus: {
     on: false,
     loadingStrategy: 'button', // Options: onload, lazy, button
-    siteShortName: 'blog-danielkelly-io' // 'blog-danielkelly-io'
+    siteShortName: 'quinny.dev' // 'blog-danielkelly-io'
   },
 
   // Newsletter Subscribe
@@ -57,7 +57,7 @@ export default {
     mailchimp: {
       on: true,
       formAction:
-        'https://danielkelly.us3.list-manage.com/subscribe/post?u=d3c2e762b66a2353d0bc29bf3&amp;id=2abeaa06e0'
+        '/'
     },
     custom: {
       on: false,
