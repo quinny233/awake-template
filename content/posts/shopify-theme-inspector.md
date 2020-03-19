@@ -38,7 +38,7 @@ So to try and demonstrate a use case for this, I've added a new snipped of Liqui
 
 ![Shopify flame graph including new test snippet](/uploads/screenshot-2020-03-19-at-14.24.40.png "Shopify flame graph including new test snippet")
 
-\
+
 We can see from the above, that this new snippet accounts for ~5-10% of the graph now. Within this snippet, I've decided I wanted to output a flag for each product that is Tagged as 'featured'. So it's a basic loop through all products, checking each for a matching Tag, as follows:
 
 ```
