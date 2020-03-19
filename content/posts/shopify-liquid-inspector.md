@@ -52,7 +52,7 @@ We can see from the above, that this new snippet accounts for ~5-10% of the grap
 ```
 
 
-I can now dig a bit further to see how efficient this code is, clicking into the relevant section of the graph. As it expands out, we can see exactly how many nodes are within the loop (signifying the amount of products we're looping through - 10 in this case), and how many nodes are pulled out to the next level down (signifying the amount of matches - 3 in this case).
+I can now dig a bit further to see how (in)efficient this code is, clicking into the relevant section of the graph. As it expands out, we can see exactly how many nodes are within the loop (signifying the amount of products we're looping through - 10 in this case), and how many nodes are pulled out to the next level down (signifying the amount of matches - 3 in this case).
 
 ![Shopify Flame Graph - Three Nodes](/uploads/screenshot-2020-03-19-at-14.26.27.png "Shopify Flame Graph - Three Nodes")
 
@@ -89,3 +89,4 @@ And this is exactly the sort of inefficiency that this Shopify Liquid Inspector 
 ## The End Result
 
 conclusions here...
+
