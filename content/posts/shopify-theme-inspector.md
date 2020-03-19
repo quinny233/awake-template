@@ -36,7 +36,9 @@ You should now see a beautiful 'Flame Graph' just like this...
 
 
 
-Now based on that graph we can start to analyse which blocks of code are the most inefficient on the page. Do this
+As you can see from the image, this graph displays all the nodes of Liquid that are being loaded into that specific page, from the theme layout all the way down into the granular snippets - which you can then click into to poke your head further down whichever rabbit hole looks interesting. You can start to dig into which aspects of the page are causing big 'flames', and consider from a high level whether any aspects are out of proportion with their importance to the page. For example if a small feature is the cause of a big percentage of the graph - it's a good place to start in considering whether it can be refactored, or in some cases if it is worth removing completely. 
+
+   
 
 ```
 Code Snippet 1 Here
