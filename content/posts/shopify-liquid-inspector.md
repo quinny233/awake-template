@@ -46,7 +46,7 @@ We can see from the above, that this new snippet accounts for ~5-10% of the grap
 ```
 {% for product in collection.products %}
     {% if product.tags contains "featured" %}
-        
+        // Do something like display a Label
     {% endif %}
 {% endfor %}
 ```
@@ -70,7 +70,7 @@ Next, I accidentally got my loops wrong - and have ended up nesting them so that
     {% if product.tags contains "featured" %}
       {% for product in collection.products %}
           {% if product.tags contains "featured" %}
-            
+            // Do something like display a Label 
           {% endif %}
       {% endfor %}
     {% endif %}
