@@ -79,6 +79,8 @@ So referring back to the Flame Graph now, we can see that the length of that ele
 
 And this is exactly the sort of inefficiency that this Shopify Liquid Inspector is perfect to debug. Without looking into the code line-by-line, something like this could easily go under the radar because it has no visual impact and still actually works. In terms of performance, it might not even be noticeable if you have a store with minimal products, and minimal Tags. But, the hit on performance would scale as the inventory increases. This poorly written code could be left lurking on the site, and only become noticeable when a new batch of 1000 products were added to the store - making the loops suddenly increase exponentially. 
 
+
+
 ## The End Result
 
 conclusions here...
