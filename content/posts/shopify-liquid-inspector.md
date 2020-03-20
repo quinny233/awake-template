@@ -88,5 +88,6 @@ And this is exactly the sort of inefficiency that this Shopify Liquid Inspector 
 
 ## The End Result
 
-conclusions here...
+That was a quick run through what this tool is, and how it can be utilised. It's definitely not the be-all and end-all of maintaining a high performing Shopify site - but a useful weapon to have in the armoury. If there are obvious problems on a Shopify site, it's a good place to start in order to identify where any wins in the frontend code might lie - or what Apps may be worth reconsidering. Plus there is a benefit in using it every so often to monitor key templates, and ensure they aren't silently declining in performance as more product lines are introduced.
+
 
