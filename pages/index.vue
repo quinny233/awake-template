@@ -9,7 +9,7 @@
         <div class="content">
             <p>
               <span><strong>Liam Quinn</strong> graduated BSc Computer Science at University of Hull, and has spent close to a decade since working within Digital roles - particularly focused around online retail.</span> <br><br>
-              My experience to date has involved building and marketing a native app for promoting local retail; scoping & planning architecture of a range of complex eCommerce solutions; leading development teams to carry out end-to-end builds; consulting on replatforming projects or integrations into existing systems; one-off technical audits, and long term growth strategies. I have experience working with several different eCommerce platforms, with a deep knowledge of Shopify Plus.        
+              My experience to date has involved building and marketing a native app for promoting local retail; scoping & planning architecture of a range of complex eCommerce solutions; leading development teams in carrying out end-to-end builds to the highest standard; consulting on replatforming projects or integrating into existing systems; one-off technical audits, and long term growth strategies. I have experience working with several different eCommerce platforms, with a deep knowledge of Shopify Plus.        
             </p>
             <br>
           </div>
