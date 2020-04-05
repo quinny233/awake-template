@@ -10,6 +10,7 @@
       <div class="container">
         <h1 class="title animated fadeInUp" v-html="title">
         </h1>
+        <br>
         <h2 class="subtitle animated fadeInUp slower" v-html="subtitle">
         </h2>
         <br />
