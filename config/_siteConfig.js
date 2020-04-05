@@ -9,7 +9,7 @@ import theCMS from '../cms/netlify/cms'
  * General Site configurations
  */
 export default {
-  siteName: 'Liam Quinn'  + ' <br>' + 'Technical eCommerce Consultant @ Vervaunt',
+  siteName: 'Liam Quinn.'  + ' <br>' + ' Technical eCommerce Consultant.',
   tagline: 'Focusing on eCommerce Replatforming, Onsite Performance & Digital Strategy.' + ' <br>' + 'Northern. Handsome Rover from Town to Town.',
   tagline_two: 'Handsome Rover from Town to Town.',
   featureImage: '/uploads/home-hero.jpg',
