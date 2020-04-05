@@ -1,4 +1,2 @@
 User-agent: *
 Disallow: /admin/
-
-Sitemap: http://www.quinny.dev/sitemap.xml
