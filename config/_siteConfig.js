@@ -10,8 +10,8 @@ import theCMS from '../cms/netlify/cms'
  */
 export default {
   siteName: 'Liam Quinn.'  + ' <br>' + ' Technical eCommerce Consultant.',
-  tagline: 'Focusing on eCommerce Replatforming, Onsite Performance & Digital Strategy.' + ' <br>' + 'Northern. Handsome Rover from Town to Town.',
-  tagline_two: 'Handsome Rover from town to town.',
+  tagline: 'Focusing on eCommerce Replatforming, Onsite Performance & Digital Strategy.',
+  tagline_two: '-',
   featureImage: '/uploads/home-hero.jpg',
   logo: 'logo.png', // 'logo-component', // or '/logo.svg' for regular image
   googleAnalytics: {
