@@ -8,8 +8,7 @@
     />
     <div class="hero-body">
       <div class="container">
-        <h1 class="title animated fadeInUp">
-          {{ title }}
+        <h1 class="title animated fadeInUp" v-html="title">
         </h1>
         <h2 class="subtitle animated fadeInUp slower" v-html="subtitle">
         </h2>
