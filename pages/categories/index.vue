@@ -10,32 +10,17 @@
           All Categories
         </h3>
         <div class="panel">
-          <nuxt-link
-            v-for="cat in allCats"
-            :key="cat.slug"
-            :to="`/categories/${cat.slug}`"
-            :class="{
-              'panel-block': true,
-              'is-active': cat.slug === $route.params.single
-            }"
-          >
-            {{ cat.name }}
-          </nuxt-link>
+          <a href="/categories/technical-performance" class="panel-block">
+            Technical Performance
+          </a>
+          <a href="/categories/shopify-plus" class="panel-block">
+            Shopify Plus
+          </a>
+          <a href="/categories/ecommerce-strategy" class="panel-block">
+            Ecommerce Strategy
+          </a>
         </div>
       </template>
     </main-section>
   </div>
 </template>
-
-<script>
-export default {
-  data() {
-    return {
-      allCats: []
-    }
-  },
-  async created() {
-    this.allCats = await this.$cms.category.getAll()
-  }
-}
-</script>
