@@ -2,7 +2,7 @@
   <footer class="site-footer">
     Liam Quinn &copy; {{ new Date().getFullYear() }}
     <br />
-    <a href="/writing">Writing</a> | <a>Twitter</a> | <a>Linkedin</a>
+    <a href="/writing">Writing</a> | <a>Twitter</a> | <a>Linkedin</a>  | <a href="/categories">Categories</a>
   </footer>
 </template>
 
