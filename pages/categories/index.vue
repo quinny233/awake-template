@@ -2,7 +2,9 @@
   <div id="categories-page" class="page-wrapper categories-page">
     <site-hero title="Categories" image="https://picsum.photos/1800/1801" />
     <main-section theme="sidebar-right">
-      <categories-grid />
+      <template v-slot:default>
+        <categories-grid />
+      </template>
     </main-section>
     <template v-slot:sidebar>
         <h3 class="subtitle">
