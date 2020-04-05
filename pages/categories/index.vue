@@ -5,8 +5,7 @@
       <template v-slot:default>
         <categories-grid />
       </template>
-    </main-section>
-    <template v-slot:sidebar>
+      <template v-slot:sidebar>
         <h3 class="subtitle">
           All Categories
         </h3>
@@ -22,5 +21,6 @@
           </a>
         </div>
       </template>
+    </main-section>
   </div>
 </template>
