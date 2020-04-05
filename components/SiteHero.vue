@@ -13,7 +13,6 @@
         <br>
         <h2 class="subtitle animated fadeInUp slower" v-html="subtitle">
         </h2>
-        <br />
         <div
           v-if="$slots.default"
           class="under-subtitle animated fadeInDown slower"
@@ -73,6 +72,7 @@ export default {
 }
 .subtitle {
   font-size: 1.2rem;
+  margin-top: 1.2rem;
   margin-bottom: 0 !important;
 }
 .under-subtitle {
