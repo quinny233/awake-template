@@ -8,14 +8,14 @@
     <main-section>
       <template v-slot:default>
         <div class="content">
-          <h3>Name of Article</h3>
-          <a><p>www.quinny.dev/handleofartice</p></a>
-          <small><time datetime="2017-02-14">2017-02-14</time></small>
+          <h3>Building an In-House Shopify Team – Internalising Development for Shopify Plus</h3>
+          <a href="https://paulnrogers.com/in-house-shopify-development-team/"><p>https://paulnrogers.com/in-house-shopify-development-team/</p></a>
+          <small><time datetime="2020-04-04">4th April 2020</time></small>
           <hr>
-          <h3>Name of Article</h3>
-          <a><p>www.quinny.dev/handleofartice</p></a>
-          <small><time datetime="2017-02-14">2017-02-14</time></small>
-          <hr> 
+          <h3>An Insight into Shopify Liquid Inspector</h3>
+          <a href="/shopify-liquid-inspector"><p>www.quinny.dev/shopify-liquid-inspector</p></a>
+          <small><time datetime="2020-02-03">3rd Feb 2020</time></small>
+          <hr>
         </div>
       </template>
 
