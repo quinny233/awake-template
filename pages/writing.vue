@@ -3,7 +3,7 @@
     <site-hero
       title="Liam Quinn. Writing Directory"
       subtitle="Just a handy Directory of all the posts I've written in one place. Enjoy!"
-      image="/uploads/about-hero.jpg"
+      image="/uploads/home-hero.jpg"
     ></site-hero>
     <main-section>
       <template v-slot:default>
