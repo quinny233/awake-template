@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset
+      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+<!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
+
+
+<url>
+  <loc>https://quinny.dev/</loc>
+  <lastmod>2020-04-05T17:46:38+00:00</lastmod>
+  <priority>1.00</priority>
+</url>
+<url>
+  <loc>https://quinny.dev/writing/</loc>
+  <lastmod>2020-04-05T17:46:38+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://quinny.dev/categories/</loc>
+  <lastmod>2020-04-05T17:46:38+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://quinny.dev/shopify-liquid-inspector/</loc>
+  <lastmod>2020-04-05T17:46:38+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://quinny.dev/categories/technical-performance/</loc>
+  <lastmod>2020-04-05T17:46:38+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://quinny.dev/categories/shopify-plus/</loc>
+  <lastmod>2020-04-05T17:46:38+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://quinny.dev/categories/ecommerce-strategy/</loc>
+  <lastmod>2020-04-05T17:46:38+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+
+
+</urlset>
