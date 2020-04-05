@@ -1,6 +1,6 @@
 <template>
   <footer class="site-footer">
-    {{ $siteConfig.siteName }} &copy; {{ new Date().getFullYear() }}
+    Liam Quinn &copy; {{ new Date().getFullYear() }}
     <br />
     <a>Twitter</a> | <a>Linkedin</a>
   </footer>
