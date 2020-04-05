@@ -1,8 +1,8 @@
 <template>
   <div id="writing-page" class="page-wrapper content-page">
     <site-hero
-      title="Liam Quinn. Writing Directory"
-      subtitle="Just a handy Directory of all the posts I've written in one place. Enjoy!"
+      title="Liam Quinn - Writing Directory"
+      subtitle="Just a handy Directory of all the posts I've written, myself or in collaboration, in one place. Enjoy!"
       image="/uploads/home-hero.jpg"
     ></site-hero>
     <main-section>
