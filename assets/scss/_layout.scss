@@ -3,8 +3,20 @@
 // Font Variables
 $inter: 'Inter', sans-serif;
 body{
-  letter-spacing: -0.75px;
   font-family: $inter !important;
+}
+p{
+}
+h1{
+  font-weight: 400;
+  font-size: 40px;
+}
+h2{
+  font-weight: 300;
+}
+h3{
+  font-weight: 800;
+  letter-spacing: -0.5px;
 }
 .site-layout-width-full{
   .container{
