@@ -4,7 +4,7 @@
 $inter: 'Inter', sans-serif;
 body{
   letter-spacing: -0.75px;
-  font-family: $inter;
+  font-family: $inter !important;
 }
 .site-layout-width-full{
   .container{
